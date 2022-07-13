@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sign-up</title>
+</head>
+
+<body>
+    <div id="logo-panel">
+        <img src="./images/leaf.jpg" alt="Leaf" id="logo-panel-bg">
+        <div id="logo-bar">
+            <img src="./images/odin.png" alt="Odin Logo" id="logo">
+            <h1 id="logo-text">ODIN</h1>
+        </div>
+    </div>
+    <div id="sign-up-panel">
+        <div id="message">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br>Sign up <i>now</i> to get started.</p>
+            <p>You <i>know</i> you want to.</p>
+        </div>
+        <form action="" method="post" id="sign-up">
+            <legend>Let's do this!</legend>
+            <div class="row">
+                <div class="cell">
+                    <label for="first">FIRST NAME</label>
+                    <input type="text" name="first" id="first" class="input" required>
+                </div>
+
+                <div class="cell">
+                    <label for="last">LAST NAME</label>
+                    <input type="text" name="last" id="last" class="input" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" class="input" required>
+                </div>
+
+                <div class="cell">
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="number" name="phone-number" id="phone-number" class="input" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" class="input" required>
+                </div>
+
+                <div class="cell">
+                    <label for="password-confirm">CONFIRM PASSWORD</label>
+                    <input type="password" name="password-confirm" id="password-confirm" class="input" required>
+                </div>
+            </div>
+            <button type="submit">Create Account</button>
+            <p id="log-in">Already have an account? <a href="/" id="log-in-link">Log in</a></p>
+        </form>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
+
+<!-- Photo by <a href="https://unsplash.com/es/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
